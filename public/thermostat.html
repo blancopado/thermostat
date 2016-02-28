@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Thermostat</title>
-  <link rel="stylesheet" type="text/css" href="./css/application.css">
-</head>
-  <body>
-    <section>
-      <h1 id="temperature"></h1>
-        <p id='controls'>
-          <button id="temperature_up">Temperature Up</button>
-          <button id="temperature_down">Temperature Down</button>
-          <button id="reset">Reset</button>Power saving mode is <span id="power-saving-status"></span>
-          <button id="power_saving_mode_on">PSM on</button>
-          <button id="power_saving_mode_off">PSM off</button>
-        </p>
-    </section>
+	<head>
+	  <title>Thermostat</title>
+	  <link rel="stylesheet" type="text/css" href="./css/application.css">
+	  <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0">
+	</head>
 
-    <section>
-      <h1>Current temperature: <span id="current-temperature"></span></h1>
-      <select id="current-city">
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-xm-6 col-sm-6 col-lg-6">
+          <a id="AppName" class="navbar-brand" href="#">Thermostat app</a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+	    <section class="col-xm-6 col-sm-6 col-lg-6" id="main-block1">
+	      <h1 id="temperature"></h1>
+	        <p id='controls'>
+	          <button class="btn" id="temperature_up">Temperature Up</button>
+	          <button class="btn" id="temperature_down">Temperature Down</button>
+	          <button class="btn" id="reset">Reset</button>Power saving mode is <span id="power-saving-status"></span>
+	          <button class="btn" id="power_saving_mode_on">PSM on</button>
+	          <button class="btn" id="power_saving_mode_off">PSM off</button>
+	        </p>
+	    </section>
+
+	    <section class="col-xm-6 col-sm-6 col-lg-6" id="main-block2">
+	    	<img src="./img/thermometer.jpeg" height="280" width="280">
+	    </section>
+	  </div>
+  </div>
+
+    <section id="main-block3">
+      <h2 id="api-temp">Current temperature: <span id="current-temperature"></span></h2>
+      <select class="btn btn-dafault" id="current-city">
         <option value="madrid">Madrid</option>
         <option value="barcelona">Barcelona</option>
         <option value="sevilla">Sevilla</option>
@@ -31,5 +54,6 @@
     <script src="./vendor/jquery.js"></script>
     <script src="./js/interface.js"></script>
     <script src="./src/thermostat.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   </body>
 </html>

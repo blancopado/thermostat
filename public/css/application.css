@@ -1,18 +1,45 @@
-html {
-  background: linear-gradient(#00CCFF, #0099FF) no-repeat fixed;
-}
-
 body {
   text-align: center;
 }
 
 #temperature {
   font-family: Impact;
-  font-size: 30px;
+  font-size: 80px;
+  margin-top: 53px;
+  padding-top: 100px;
 }
 
 #controls {
   display: inline-block;
+  padding-top: 135px;
+  margin-bottom: 40px;
+}
+
+#AppName {
+  color: white;
+}
+
+#main-block1 {
+  background-color: #5F9EA0;
+}
+
+#main-block2 {
+  margin-top: 110px;
+  margin-bottom: 60px;
+}
+
+#main-block3 {
+	background-color: #FF4500;
+}
+
+#api-temp {
+  color: white;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+#current-city {
+  margin-bottom: 30px;
 }
 
 .low-usage {
