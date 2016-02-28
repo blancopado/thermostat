@@ -24,10 +24,13 @@
     <div class="row">
 	    <section class="col-xm-6 col-sm-6 col-lg-6" id="main-block1">
 	      <h1 id="temperature"></h1>
-	        <p id='controls'>
-	          <button class="btn" id="temperature_up">Temperature Up</button>
-	          <button class="btn" id="temperature_down">Temperature Down</button>
-	          <button class="btn" id="reset">Reset</button>Power saving mode is <span id="power-saving-status"></span>
+	        <p id="controls">
+	          <button class="btn" id="temperature_up"><span class="glyphicon glyphicon-hand-up"></span> Up</button>
+	          <button class="btn" id="temperature_down"><span class="glyphicon glyphicon-hand-down"></span> Down</button>
+	          <button class="btn" id="reset"><span class="glyphicon glyphicon-repeat"></span> Reset</button>
+	        </p>
+	        <p id="saving-mode">
+	          Power saving:<span id="power-saving-status"></span>
 	          <button class="btn" id="power_saving_mode_on">PSM on</button>
 	          <button class="btn" id="power_saving_mode_off">PSM off</button>
 	        </p>
