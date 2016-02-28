@@ -1,12 +1,14 @@
 ## Thermostat
 
-I have developed the logic needed to model a simple thermostat using JavaScript (./public/src/thermostat.js).
-I used jQuery to add interactive functionality into the App (./public/js/interface.js).
-I also used a jQuery AJAX call to get the weather information for a specific city and display it to the user.
+1. I have developed the logic needed to model a simple thermostat using JavaScript (./public/src/thermostat.js).
+2. I used jQuery to add interactive functionality into the App (./public/js/interface.js).
+3. I also used a jQuery AJAX call to get the weather information for a specific city and display it to the user.
+
 
 #### Tests:
 
-Use Jasmine to Test-Drive Development of a thermostat (./spec/thermostatSpec.js).
+I have used Jasmine to Test-Drive Development of a thermostat (./spec/thermostatSpec.js).
+
 
 ![Alt text](./public/img/thermostat.png)
 
