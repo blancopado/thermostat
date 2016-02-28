@@ -10,7 +10,7 @@
 I have used Jasmine to Test-Drive Development of a thermostat (./spec/thermostatSpec.js).
 
 
-![Alt text](./public/img/thermostat.png)
+![Alt text](./public/img/thermostat.jpeg)
 
 
 #### Specification:
